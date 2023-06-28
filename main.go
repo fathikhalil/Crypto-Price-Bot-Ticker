@@ -23,7 +23,7 @@ func main() {
 
 	// Initial Bot & Whebhook
 
-	bot := tbot.New(os.Getenv("API_KEY"), tbot.WithWebhook("https://b42b-2001-8f8-1471-2b9e-e26e-6eb8-7142-dfac.in.ngrok.io", ":8100"))
+	bot := tbot.New(os.Getenv("API_KEY"), tbot.WithWebhook("Your Webhook API", "Ports"))
 	c := bot.Client()
 	fmt.Println("Server Running 8100")
 
